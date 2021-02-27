@@ -6,4 +6,6 @@
     - chmod -R gu+w storage
     - chmod -R guo+w storage
     - php artisan cache:clear
-    
+
+* Start the App:
+ docker-compose up -d --build server (the --build option is used to make sure of any untacked changes in dockerfiles)    
